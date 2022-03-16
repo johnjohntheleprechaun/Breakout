@@ -17,8 +17,9 @@ public class SpawnController : MonoBehaviour
     void CalcTileSize() {
         float height = Camera.main.orthographicSize * 2.0f;
         float width = height * Camera.main.aspect;
-        /*
+        
         GameObject test = Instantiate(hm, Vector3.zero, Quaternion.Euler(Vector3.zero));
-        hm.transform.localScale = new Vector3(width, height, 1);*/
+        hm.transform.localScale = new Vector3(width, height, 1);
+        
     }
 }
